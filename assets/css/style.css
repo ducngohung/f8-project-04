@@ -1,3 +1,4 @@
+/****** Project init ******/
 * {
   box-sizing: border-box;
 }
@@ -10,6 +11,8 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
+
+/****** Common CSS ******/
 
 h1,
 h2,
@@ -26,4 +29,66 @@ select,
 button {
   font-size: inherit;
   font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  --height: 56px;
+
+  display: inline-block;
+  height: var(--height);
+  line-height: var(--height);
+  min-width: 130px;
+  border: 1px solid rgb(0, 9, 88, 0.7);
+  border-radius: 99px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #000958;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+/****** Header CSS ******/
+.header {
+  background: #fffaf5;
+  padding: 26px 0;
+}
+
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list {
+  display: flex;
+}
+
+.nav-action_login,
+.navbar__link {
+  display: inline-block;
+  padding: 5px 18px;
+  color: #5e6085;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1; /* 100% */
+}
+
+.nav-action_login:hover,
+.navbar__link:hover {
+  color: #000958;
+  text-shadow: 1px 0 0 currentColor;
+  /* text-decoration: underline; */
 }
