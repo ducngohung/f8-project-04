@@ -572,3 +572,146 @@ a {
 .tab__content-item.tab__content-item--active {
   display: block;
 }
+
+/****** Services CSS ******/
+.service {
+  background: #fff6ed;
+  margin-top: 185px;
+  padding: 68px 0 100px 0;
+}
+
+.service-top {
+  text-align: center;
+}
+
+.service-top__desc {
+  margin-bottom: 15px;
+}
+
+.service-top__heading {
+  margin-bottom: 70px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  justify-content: center;
+  column-gap: 70px;
+}
+
+.service-item {
+  width: 294px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 188, 122, 0.26);
+  background: #fff;
+}
+
+.service-item {
+  margin-bottom: 24px;
+  padding: 30px 22px 30px 28px;
+}
+
+.service-item:last-child {
+  margin-bottom: 0;
+}
+
+.service-item__heading {
+  color: #000958;
+  font-family: Sora;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1; /* 100% */
+  margin-bottom: 18px;
+  position: relative;
+}
+
+.service-item__heading::before {
+  display: block;
+  content: "";
+  width: 2px;
+  height: 22px;
+  background: linear-gradient(63deg, #ff5b2e 0%, #ffa187 100%);
+  position: absolute;
+  bottom: 0;
+  left: -12px;
+}
+
+.service-item__desc {
+  color: #656689;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.71; /* 171.429% */
+  margin-bottom: 24px;
+}
+
+.service-item__more {
+  display: inline-block;
+  color: #34396a;
+  font-family: Sora;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1; /* 100% */
+  position: relative;
+}
+
+.service-item__more::after {
+  display: block;
+  content: url(../icon/ArrowUpRight.svg);
+  position: absolute;
+  right: 0;
+  top: 0;
+  right: -18px;
+  top: 0;
+}
+
+.service-wrap {
+  width: 440px;
+  border-radius: 10px;
+  margin-bottom: 49px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-wrap::after {
+  content: "";
+  position: absolute;
+  height: 350px;
+  left: 16px;
+  right: 16px;
+  bottom: 0;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #9df1fb 0%, #73d0db 100%);
+  /* z-index: -1; */
+}
+
+.service-content__img {
+  width: 100%;
+  z-index: 1;
+  display: block;
+  position: relative;
+}
+
+.service-content__center {
+  text-align: center;
+  align-items: center;
+}
+
+.service-cta {
+  width: 214px;
+  height: 56px;
+  border-radius: 31px;
+  border: 1px solid var(--primary-color);
+  opacity: 0.6;
+  box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+  color: var(--primary-color);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: 1; 100% */
+}
