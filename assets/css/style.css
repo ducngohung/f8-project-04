@@ -1219,3 +1219,126 @@ a {
   font-weight: 400;
   line-height: 1.71; /* 171.429% */
 }
+
+/****** Footer CSS ******/
+.footer {
+  background: #fff6ed;
+}
+
+.footer__inner {
+  display: flex;
+}
+
+.footer__left {
+  width: 62%;
+  padding: 114px 212px 148px 0;
+}
+
+.footer__left-logo {
+  margin-bottom: 34px;
+}
+
+.footer__input {
+  margin-bottom: 68px;
+}
+
+.footer__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 268px;
+  height: 46px;
+  border-radius: 23px;
+  border: 1px solid rgba(255, 91, 46, 0.25);
+  background: #fff;
+}
+
+.footer__form-email {
+  color: #656689;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.16; /* 116.667% */
+  border: none;
+  padding: 0 25px;
+}
+
+.footer__form-submit {
+  width: 45px;
+  height: 46px;
+  background: var(--primary-color);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -1px;
+}
+
+.footer__follow-heading {
+  margin-bottom: 16px;
+  color: #000958;
+  font-family: Sora;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.11; /* 111.111% */
+}
+
+.footer__follow-icons {
+  display: flex;
+  column-gap: 16px;
+}
+
+.footer__follow-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.footer__follow-icon img {
+  /* width: 100%; */
+  margin-left: -16px;
+}
+
+.footer__right {
+  padding: 52px 129px;
+  width: 100%;
+  background: #fffaf5;
+  flex-shrink: 0;
+}
+
+.footer__right-link {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 58px;
+  column-gap: 137px;
+}
+
+.footer__column-heading {
+  margin-bottom: 14px;
+  color: #000958;
+  font-family: Sora;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.11; /* 111.111% */
+}
+
+.footer__column-link {
+  color: #656689;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2; /* 200% */
+}
+
+.footer__right-link {
+  margin-bottom: 52px;
+}
+
+.footer__copyright {
+  color: #656689;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.16; /* 116.667% */
+  margin-left: -107px;
+}
